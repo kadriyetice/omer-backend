@@ -1,3 +1,4 @@
+
 var pgp = require('pg-promise')(/*options*/);
 var cn = {
     host:'localhost',
@@ -6,7 +7,7 @@ var cn = {
     user: 'postgres',
     password:'abc'
 };
-
+//Kadriye s comment
 var db = pgp(cn);
 
 var arr = [];
